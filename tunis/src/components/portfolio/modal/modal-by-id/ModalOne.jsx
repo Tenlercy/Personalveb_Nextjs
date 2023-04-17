@@ -29,12 +29,12 @@ const ModalOne = ({modalId,setGetModal}) => {
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-user-o pr-2"></i>
-                          Client :{" "}
+                          Tools :{" "}
                           <span className="ft-wt-600 uppercase">
-                            {details.client}
+                            {details.Tools}
                           </span>
                         </div>
-                        <div className="col-12 col-sm-6 mb-2">
+                        <div className="col-12 col-sm-6 mb-4">
                           <i className="fa fa-code pr-2"></i>
                           Language :{" "}
                           <span className="ft-wt-600 uppercase">
@@ -42,16 +42,29 @@ const ModalOne = ({modalId,setGetModal}) => {
                           </span>
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
-                          <i className="fa fa-external-link pr-2"></i>
-                          Preview :{" "}
-                          <a
-                            className="preview-link"
-                            target="_blank"
-                            rel="noopener noreferrer nofollow"
-                            href={details.link}
-                          >
-                            {details.preview}
-                          </a>
+                          <i class="fa fa- fa-transgender-alt pr-2"></i>
+                          Methodology:{" "}
+                          <span className="ft-wt-600 uppercase">
+                            {details.method}
+                          </span>
+                        </div>
+                        <div className="w-full mb-4">
+                          <i class="fa fa- fa-bullseye pr-2"></i>
+                          <span class="ft-wt-600">
+                            Objective:{" "}
+                          </span>
+                          <span className="ft-wt-300 uppercase">
+                            {details.objective}
+                          </span>
+                        </div>
+                        <div className="w-full mb-4">
+                          <i class="fa fa- fa-bullseye pr-2"></i>
+                          <span class="ft-wt-600">
+                            Key Features:{" "}
+                          </span>
+                          <span className="ft-wt-300 uppercase">
+                            {details.keyFearture}
+                          </span>
                         </div>
                       </div>
                     );

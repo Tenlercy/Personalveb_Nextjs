@@ -11,17 +11,18 @@ import Image9 from "../../../public/assets/img/portfolio/project-9.jpg";
 const PortfolioData = [
   {
     id: 1,
-    type: "mockup project",
+    type: "Stock App Notification",
     image: Image1,
-    tag: ["mockup"],
+    tag: ["MicroService"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Envato",
-        language: "HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com/",
+        project: "Notifications and Alerts",
+        Tools: "Node.js, Express, Redis, WebSocket, REST APIs, and Git",
+        language: "Java, Javascript",
+        method: "Agile Scrum",
+        objective: "The aim of the project was to develop a scalable and reliable microservice to send real-time stock price alerts and notifications to users of a stock trading app, based on their preferences and watchlist.",
+        keyFearture: "\nReal-time stock price monitoring and alert generation\nCustomizable user preferences for stock price thresholds and notification frequency\nEfficient handling of a large number of concurrent user connections\nSeamless integration with the main stock trading app"
       },
     ],
   },
@@ -105,54 +106,54 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 7,
-    type: "facebook project",
-    image: Image7,
-    tag: ["logo"],
-    delayAnimation: "0",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Facebook",
-        language: "HTML, CSS, Javascript",
-        preview: "www.facebook.com",
-        link: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    id: 8,
-    type: "dribble project",
-    image: Image8,
-    tag: ["graphic design"],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Dribbble",
-        language: "HTML, CSS, Javascript",
-        preview: "www.dribbble.com",
-        link: "https://dribbble.com/ib-themes",
-      },
-    ],
-  },
-  {
-    id: 9,
-    type: "behence project",
-    image: Image9,
-    tag: ["graphic design", "mockup"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Website",
-        client: "Behance",
-        language: "HTML, CSS, Javascript",
-        preview: "www.behance.com",
-        link: "https://www.behance.net/ib-themes",
-      },
-    ],
-  },
+  // {
+  //   id: 7,
+  //   type: "facebook project",
+  //   image: Image7,
+  //   tag: ["logo"],
+  //   delayAnimation: "0",
+  //   modalDetails: [
+  //     {
+  //       project: "Website",
+  //       client: "Facebook",
+  //       language: "HTML, CSS, Javascript",
+  //       preview: "www.facebook.com",
+  //       link: "https://www.facebook.com/ibthemes",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   type: "dribble project",
+  //   image: Image8,
+  //   tag: ["graphic design"],
+  //   delayAnimation: "100",
+  //   modalDetails: [
+  //     {
+  //       project: "Website",
+  //       client: "Dribbble",
+  //       language: "HTML, CSS, Javascript",
+  //       preview: "www.dribbble.com",
+  //       link: "https://dribbble.com/ib-themes",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 9,
+  //   type: "behence project",
+  //   image: Image9,
+  //   tag: ["graphic design", "mockup"],
+  //   delayAnimation: "200",
+  //   modalDetails: [
+  //     {
+  //       project: "Website",
+  //       client: "Behance",
+  //       language: "HTML, CSS, Javascript",
+  //       preview: "www.behance.com",
+  //       link: "https://www.behance.net/ib-themes",
+  //     },
+  //   ],
+  // },
 ];
 
 export default PortfolioData;
