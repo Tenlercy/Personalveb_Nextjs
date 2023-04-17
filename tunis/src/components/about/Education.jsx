@@ -2,25 +2,16 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
-  },
-  {
-    year: "2012",
+    year: "2021-2022",
     degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    institute: "Columbia UNIVERSITY",
+    details: `Study at GSAPP includes coursework in web development, computer graphics, and virtual reality.`,
   },
   {
-    year: "2009",
+    year: "2015-2020",
     degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    institute: "Wuhan University",
+    details: `Customize my courses of study with a focus on urbanism and digital media, which includes coursework in full-stack web development, data visualization, and interactive media.`,
   },
 ];
 

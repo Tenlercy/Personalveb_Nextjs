@@ -1,5 +1,5 @@
 import { useState } from "react";
-import img1 from "../../public/assets/img/blog/blog-post-1.jpg";
+import img1 from "../../public/assets/img/blog/HV_MTL.jpg";
 import img2 from "../../public/assets/img/blog/blog-post-2.jpg";
 import img3 from "../../public/assets/img/blog/blog-post-3.jpg";
 import img4 from "../../public/assets/img/blog/blog-post-4.jpg";
@@ -11,18 +11,18 @@ const AllBlogData = () => {
     {
       id: 1,
       img: img1,
-      title: "How to Own Your Audience by Creating an Email List",
-      commentor: "Rio ",
-      date: "21 April 2022",
-      tag: `wordpress, business, economy, design`,
+      title: "Yuga Labs: Pioneering the Future of NFTs and Digital Communities",
+      Author: "Lechon Tong",
+      date: "18 April 2023",
+      tag: `NFT, Yuga, Chronincal, design`,
       description1:
-        "Tomfoolery crikey bits and bobs brilliant bamboozled down the pub amongst brolly hanky panky, cack bonnet arse over tit burke bugger all mate bodge. cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Suspendisse interdum consectetur libero id faucibu nisl. Lacus vel facilisis volutpat est velit egestas.",
+        "Yuga Labs, the creator of the wildly successful Bored Ape Yacht Club (BAYC), has emerged as a trailblazer in the dynamic world of non-fungible tokens (NFTs) and digital art.",
       description2:
-        "Most photographers find it hard to see interesting pictures in places in which they are most familiar. A trip somewhere new seems always exactly what our photography needed, as shooting away from home consistently inspires us to new artistic heights. ",
+        "Founded by a talented team of visionaries, Yuga Labs has introduced a new dimension to the concept of digital collectibles by offering exclusive perks and access to a vibrant community for BAYC NFT holders.",
       description3:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "Prior to the widespread adoption of non-fungible tokens (NFTs) for profile pictures (PFP), creators and developers typically did not invest much effort into developing tools or applications for their projects.",
       description4:
-        "Riosum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "The company recognizes the transformative potential of NFTs and the metaverse to revolutionize our interactions with the digital realm and is devoted to developing the infrastructure, tools, and experiences required to realize this vision.",
     },
     {
       id: 2,

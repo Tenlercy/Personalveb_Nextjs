@@ -2,25 +2,18 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
+    year: "2022 - Present",
     position: " Web Developer",
-    compnayName: "Envato",
+    compnayName: "Prokeii",
     details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
         adipisicing elit`,
   },
   {
-    year: "2013 - 2018",
+    year: "2020 - 2021",
     position: " UI/UX Designer",
-    compnayName: "Themeforest",
+    compnayName: "Uxpie",
     details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
         elit, tempor incididunt`,
-  },
-  {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
   },
 ];
 

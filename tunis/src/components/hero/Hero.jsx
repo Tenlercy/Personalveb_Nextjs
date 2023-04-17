@@ -8,12 +8,13 @@ import Image from "next/image";
 const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroTitleName: "Lechon Tong",
+  heroDesignation: "FullStack Developer",
+  heroDescriptions: `As a junior full stack software developer, I have experience in designing and developing
+  clean, user-friendly web experiences. My focus is on creating software that not only looks
+  great but also enhances the lives of those who use it. I am passionate about building high-
+  quality, scalable applications that solve real-world problems and contribute to the success of 
+  my team and clients.`,
   heroBtn: "more about me",
 };
 
